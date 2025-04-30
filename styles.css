@@ -267,3 +267,26 @@ hr{
     position: absolute;
     z-index: 10;
 }
+
+
+
+/* Add to your CSS */
+.hover-scale {
+    transition: transform 0.3s ease;
+    cursor: none;
+  }
+  
+  .hover-gradient {
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+  .parallax-section {
+    will-change: transform;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .swiper-slide img {
+    transform-origin: center bottom;
+  }
+  
